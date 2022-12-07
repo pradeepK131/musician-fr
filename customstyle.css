@@ -1,0 +1,909 @@
+@import url(//fonts.googleapis.com/css?family=Poppins);@import url(//fonts.googleapis.com/css?family=Yeseva+One);@import url(//fonts.googleapis.com/css?family=Halant);
+#overlay { 
+	background-image: url(https://soundrise.irontemplates.com/indie/wp-content/uploads/sites/14/2017/09/pages-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+	background-attachment: initial;
+	background-color: rgb(255, 255, 255);
+}
+#overlay .perspective { 
+	background-attachment: initial;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+a,
+code,
+.blockquote-block,
+.tab-circle,
+.wpb_content_element.circle a,
+a.button-more,.pages a,
+.pages .current,
+.iron_widget_newsletter input[type="submit"]:hover,
+.iron_widget_twitter .twitter-logo,
+.iron_widget_twitter .twitter-logo-small,
+.blockquote-block,
+.tab-circle,
+a.sr_it-meta-author-link,
+.post-categories a,
+.post-tags a,
+.comment-content a,
+.comment-author .fn,
+.comment-author .url,
+.comment-reply-link,
+.comment-reply-login,
+.comment-meta a:hover,
+.comment-reply-title small a:hover,
+.comments-title,
+.woocommerce-Reviews .comment-reply-title,
+.woocommerce-Reviews .woocommerce-Reviews-title,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-menu-parent > a,
+.nav-menu .current-menu-ancestor > a,
+.iron_widget_recent_tweets .meta .time a,
+.carousel .sr_it-datetime,
+.article .sr_it-datetime,
+.sr_it-single-post time,
+.meta .sr_it-datetime,
+.blockquote-block .title,
+.blockquote-block figcaption,
+span.wpcf7-not-valid-tip-no-ajax,
+.wpcf7-response-output,
+.photos-list .hover-text span,
+.contact-box .phone,
+.error,
+.success span,
+.concerts-list .title-row .date,
+.concerts-list .expanded .title-row .link,
+.iron_widget_newsletter label span,
+.concerts-list .title-row .link,
+.icon-concert-dropdown,
+li.expanded .title-row .icon-concert-dropdown,
+.media-block a:hover .media-decoration.media-audio,
+.media-block a:hover .media-decoration.media-audio,
+.media-decoration.media-video,
+.carousel .video-box .btn-play,
+.terms-list small,
+.terms-list [class^="icon-"],
+.terms-list [class*=" icon-"],
+.nm_mc_form .nm_mc_button:hover,
+.footer-wrapper-backtotop:hover,
+#sidebar .panel-action,
+.tweet_text a,
+.iron_widget_newsletter .nm_mc_button input[type="submit"]:hover,
+#footer .iron_widget_newsletter input[type="submit"]:hover,
+#footer .nm_mc_form input[type="submit"]:hover,
+.iron_widget_newsletter input[type="submit"],
+.nm_mc_form input[type="submit"],
+.event-more-button,
+.nav-menu li:hover > a,
+ul.nav-menu li.menu-item ul.sub-menu li:hover > a,
+ul.nav-menu ul a:hover,
+.nav-menu ul ul a:hover,
+.nav-menu .has-drop-down ul a:hover,
+.nav-menu li a.backbtn:hover,
+.wpb_content_element a,
+#sidebar .textwidget a,
+blockquote p,
+.footer__widgets ul a,
+.wooprice ins,
+.woocommerce ul.products li.product .price,
+.woocommerce-page ul.products li.product .price,
+.woocommerce div.product span.price,
+.woocommerce div.product p.price,
+.woocommerce #content div.product span.price,
+.woocommerce #content div.product p.price,
+.woocommerce-page div.product span.price,
+.woocommerce-page div.product p.price,
+.woocommerce-page #content div.product span.price,
+.woocommerce-page #content div.product p.price,
+.wooprice,
+.woocommerce .star-rating,
+.woocommerce-page .star-rating,
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span,
+.woocommerce #content nav.woocommerce-pagination ul li a,
+.woocommerce #content nav.woocommerce-pagination ul li span,
+.woocommerce-page nav.woocommerce-pagination ul li a,
+.woocommerce-page nav.woocommerce-pagination ul li span,
+.woocommerce-page #content nav.woocommerce-pagination ul li a,
+.woocommerce-page #content nav.woocommerce-pagination ul li span,
+.woocommerce table.cart a.remove,
+.woocommerce #content table.cart a.remove,
+.woocommerce-page table.cart a.remove,
+.woocommerce-page #content table.cart a.remove,
+.woocommerce .woocommerce-product-rating .star-rating,
+.woocommerce-page .woocommerce-product-rating .star-rating,
+.woo-thanks,
+.infobox-icon,
+a.back-btn,
+.playlist_enabled .player-box .jp-playlist ul li .button,
+.button.add_to_cart_button.product_type_simple,
+.post-password-form input[type="submit"],
+li:hover > .has-drop-down-a .sub-arrow i,
+.social-networks a i:hover,
+.side-menu .social-networks a i:hover,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.woocommerce #content input.button,
+.woocommerce-page a.button,
+.woocommerce-page button.button,
+.woocommerce-page input.button,
+.woocommerce-page #respond input#submit,
+.woocommerce-page #content input.button,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit.alt,
+.woocommerce #content input.button.alt,
+.woocommerce-page a.button.alt,
+.woocommerce-page button.button.alt,
+.woocommerce-page input.button.alt,
+.woocommerce-page #respond input#submit.alt,
+.woocommerce-page #content input.button.alt,
+.shipping-calculator-button,
+.articles-classic .text-box a:hover h2,
+.articles-classic a.readmore-classic:hover,
+article a.more-link:hover,
+#commentform .form-submit #submit,
+.stickypost i,
+.simple-post-txt-wrap a:hover h2,
+.portfolio .portfolio-prev:hover .prev-text,
+.portfolio .portfolio-next:hover .next-text,
+.portfolio .portfolio-prev:hover i.fa-long-arrow-left,
+.portfolio .portfolio-next:hover i.fa-long-arrow-right,
+.portfolio .portfolio-mid-wrap i.fa-th:hover,
+.player-title-box .track-name,
+.audio-holder .jp-playlist ul.tracks-list li.jp-playlist-current div a, .articles-classic .post-categories a:hover, .articles-classic .post-tags a:hover,
+.sr_it-videolist-list article:hover i, .sr_it-videolist-list article:hover .sr_it-videolist-item-artist, .sr_it-videolist-list article:hover .sr_it-videolist-item-date, .sr_it-videolist-list article:hover .sr_it-videolist-item-title { 
+	color: rgb(30, 240, 191);
+}
+
+.store-list a.button:hover,
+.panel-action:hover,
+.album-overlay,
+.pages .current,
+.media-block a:hover,
+.pages a:hover,
+a.button-more:hover,
+.type-album .tracks-block .player-box,
+.iron_widget_newsletter,
+.iron_widget_newsletter input[type="email"],
+.nm_mc_form input[type="text"],
+#footer .newsletter-wrap,
+.concerts-list .title-row:hover .buttons .button,
+.store-list a.button:hover,
+.album-overlay,
+.marquee .tp-leftarrow,
+.marquee .tp-rightarrow,
+.marquee .more,
+.carousel .btn-prev:hover,
+.carousel .btn-next:hover,
+.carousel .slide a:hover,
+.concert-box .hover-box,
+.article a:hover,
+.pages .current,
+.pages a:hover,
+.button-more:hover,
+a.button,
+.comment-form #submit,
+.wpcf7-submit,
+.filters-block a.active,
+.form input[type="submit"],
+.concerts-list .title-row .time,
+.concerts-list .title-row.has_countdown:hover .buttons,
+.concerts-list .expanded .title-row .button,
+.concerts-list .expanded .title-row:after,
+.iron_widget_newsletter input[type="submit"]:focus,
+.iron_widget_newsletter input[type="submit"]:hover,
+.select-options .item-selected a,
+.concerts-list .expanded .title-row .opener:hover:after,
+.concerts-list .title-row .button,
+.media-decoration.media-audio,
+.tracks-list .btn-play [class^="icon-"],
+.tracks-list .btn-play [class*=" icon-"],
+.tracks-list .btn-pause [class^="icon-"],
+.tracks-list .btn-pause [class*=" icon-"],
+.player-box a:hover [class^="icon-"],
+.player-box a:hover [class*=" icon-"],
+.social-networks a:hover [class^="icon-"],
+.social-networks a:hover [class*=" icon-"],
+.carousel .video-box .icon-play,
+.search-form input[type="submit"],
+.news-grid-wrap a:hover,
+.iron_widget_videos .video-list article a:hover,
+a.back-btn:hover,
+.photo-wrap:hover .tab-text,
+.videogrid:hover .text-box,
+.page-template-archive-video .media-block:hover .text-box,
+.playlist_enabled .player-box .jp-playlist ul li .button:hover,
+.button.add_to_cart_button.product_type_simple:hover,
+.post-password-form input[type="submit"]:hover,
+.title-row.no-countdown:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce #respond input#submit:hover,
+.woocommerce #content input.button:hover,
+.woocommerce-page a.button:hover,
+.woocommerce-page button.button:hover,
+.woocommerce-page input.button:hover,
+.woocommerce-page #respond input#submit:hover,
+.woocommerce-page #content input.button:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce #content input.button.alt:hover,
+.woocommerce-page a.button.alt:hover,
+.woocommerce-page button.button.alt:hover,
+.woocommerce-page input.button.alt:hover,
+.woocommerce-page #respond input#submit.alt:hover,
+.woocommerce-page #content input.button.alt:hover,
+.woocommerce table.cart a.remove:hover,
+.woocommerce #content table.cart a.remove:hover,
+.woocommerce-page table.cart a.remove:hover,
+.woocommerce-page #content table.cart a.remove:hover,
+.shipping-calculator-button:hover,
+.woocommerce #content nav.woocommerce-pagination ul li a:focus,
+.woocommerce #content nav.woocommerce-pagination ul li a:hover,
+.woocommerce #content nav.woocommerce-pagination ul li span.current,
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current,
+.woocommerce-page #content nav.woocommerce-pagination ul li a:focus,
+.woocommerce-page #content nav.woocommerce-pagination ul li a:hover,
+.woocommerce-page #content nav.woocommerce-pagination ul li span.current,
+.woocommerce-page nav.woocommerce-pagination ul li a:focus,
+.woocommerce-page nav.woocommerce-pagination ul li a:hover,
+.woocommerce-page nav.woocommerce-pagination ul li span.current,
+.playlist_enabled .player-box .jp-playlist ul li:hover,
+.woocommerce-message .button.wc-forward:hover,
+#commentform .form-submit #submit:hover,
+.news-grid-wrap a.sticky,
+.news-grid-wrap.isotope-item a.sticky,
+ins,.mc4wp-form input[type=submit],
+.woocommerce span.onsale,
+.woocommerce-page span.onsale { 
+	background-color: rgb(30, 240, 191);
+}
+
+.tab-circle,a.button-more,
+.tab-circle,
+input.error,
+.event-more-button,
+.woocommerce .woocommerce-info,
+.woocommerce-page .woocommerce-info,
+.woocommerce .woocommerce-message,
+.woocommerce-page .woocommerce-message,
+.chosen-container-active .chosen-single,
+a.back-btn,
+.playlist_enabled .player-box .jp-playlist ul li .button,
+.button.add_to_cart_button.product_type_simple,
+.post-password-form input[type="submit"],
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.woocommerce #content input.button,
+.woocommerce-page a.button,
+.woocommerce-page button.button,
+.woocommerce-page input.button,
+.woocommerce-page #respond input#submit,
+.woocommerce-page #content input.button,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit.alt,
+.woocommerce #content input.button.alt,
+.woocommerce-page a.button.alt,
+.woocommerce-page button.button.alt,
+.woocommerce-page input.button.alt,
+.woocommerce-page #respond input#submit.alt,
+.woocommerce-page #content input.button.alt
+.shipping-calculator-button,
+.articles-classic a.readmore-classic:hover,
+article a.more-link:hover,
+#commentform .form-submit #submit,
+.page-template-archive-posts-classic-php .media-block.sticky  .holder,
+blockquote,
+.portfolio .portfolio-rightside a.portfolio-button,
+.sr_it-videolist-list article:hover i { 
+	border-color: rgb(30, 240, 191);
+}
+
+	.media-block a,
+	.blockquote-block,
+	.store-list a.button,
+	.event-row,
+	.type-album .text-box,
+	.tracks-list > li,
+	.panel-action,
+	.iron_widget_twitter .panel__body,
+	.iron_widget_twitter .panel-action,
+	.iron_widget_radio .panel__body,
+	.photo-wrap .photo-album-tab,
+	.news-grid-wrap a,
+	.container .iron_widget_newsletter,
+	.container .newsletter-wrap,
+	.videogrid,
+	.iron_widget_videos .video-list article a,
+	blockquote,
+	.articles-classic .media-block .holder,
+	.pages a { 
+	background-color: #ffffff;
+}
+
+#sidebar .panel-action:hover,
+.iron_widget_newsletter .newsletter-wrap nm_mc_button,
+.iron_widget_newsletter input[type="submit"]:hover,
+a.button:hover,
+.wpb_accordion_section a,
+.ui-tabs-anchor { 
+	background-color: rgb(38, 36, 35);
+}
+
+.comment-respond,
+.container .iron_widget_newsletter input[type="email"],
+.container .nm_mc_form input[type="text"],
+.container .iron_widget_newsletter input[type="submit"],
+.container .nm_mc_form input[type="submit"],
+.post-password-form input[type="password"],
+.wpb_tabs_nav { 
+	border-color: rgb(38, 36, 35);
+}
+
+.iron_widget_newsletter input[type="email"],
+.nm_mc_form input[type="text"],
+.nm_mc_form label,
+#footer .iron_widget_newsletter input[type="submit"],
+#footer .nm_mc_form input[type="submit"],
+.countdown-section,
+.countdown-amount,
+.countdown-period,
+.footer-block .social-networks a,
+.footer__widgets,
+.footer-row,
+.footer__widgets > .iron_widget_newsletter .control-label,
+.footer__widgets > .iron_widget_newsletter .form-control,
+.footer-row ul,
+.footer-row ul a,
+.concerts-list .title-row .open-link,
+.concerts-list .title-row .button:hover,
+.panel__heading,
+.panel__footer,
+.title-box,
+.title-box h2,
+.carousel .btn-prev:hover,
+.carousel .btn-next:hover,
+.media-decoration.media-audio,
+#header,
+.iosSlider .slider .item .inner .text1 span,
+.iosSlider .slider .item .inner .text2 span,
+a.button:hover,
+.store-list a.button:hover,
+.concerts-list,
+.title-row:hover .icon-concert-dropdown,
+.concerts-list .title-row:hover .button:hover,
+.concerts-list .expanded .title-row .button:hover,
+.concerts-list .title-row .opener,
+.album-listen,
+.circle,
+.tracks-list,
+.tracks-list .button,
+.tracks-list .btn-play,
+.tracks-list .btn-pause,
+.gallery-caption,
+.pages .current,
+.pages a:hover,
+a.button-more:hover,
+.pages .current,
+.form input[type="submit"]:hover,
+.comment-form #submit,
+.wpcf7-submit,
+.comment-form #submit:hover,
+.wpcf7-submit:hover,
+.concert-box .time,
+.video-box .hover-box,
+.video-box h2,
+.video-box .icon-play,
+.marquee .more,
+.pages .current,
+.pages a:hover,
+.button-more:hover,
+.concerts-list .title-row.has_countdown:hover .button:hover,
+.concerts-list .title-row.has_countdown:hover .buttons .button,
+.iron_widget_newsletter .form-status,
+.concerts-list .title-row .button,
+.footer__widgets .iron_widget_radio .info-box,
+#footer .tweet_text,
+#footer .nm_mc_error
+#footer .textwidget,
+#footer .newsletter-title-wrap h3,
+#footer .newsletter-description-wrap,
+#footer .newsletter-description-wrap p,
+a.button,
+play-button,
+.darker-overlay h1,
+.darker-overlay h2,
+.darker-overlay h3,
+.darker-overlay h4,
+.darker-overlay h5,
+.darker-overlay h6,
+#footer .wp-calendar,
+#footer p,
+#footer ul,
+#footer li,
+#footer dl,
+#footer dt,
+#footer dd,
+#footer ol,
+#footer pre,
+#footer tr,
+#footer td,
+#footer th,
+#sidebar .button.wc-forward,
+.post-password-form input[type="password"],
+#footer .iron_widget_newsletter .newsletter-wrap .control-description,
+#footer .iron_widget_newsletter .nm_mc_button:hover { 
+	color: rgb(255, 255, 255);
+}
+.photo-wrap:hover .tab-circle, .comment-list > li:after, .comment-list .children > li:before, .comment-reply-title, .woocommerce-page.single-product div.product .woocommerce-Tabs-panel--additional_information.panel, .single-product table.shop_attributes, .woocommerce-page #reviews #comments ol.commentlist li .comment-text, .sr_it-videolist-list li, .sr_it-videolist-list i { 
+	border-color: #ffffff;
+}
+
+body,
+.video-post,
+.sr_it-single-post h2,
+.concerts-list .title-row .sr_it-datetime,
+.event-row .sr_it-datetime,
+.type-album .text-box h2,
+.tab-title,
+.tab-title .excerpt,
+.tracks-list .name,
+.comment-reply-title,
+h2.widgettitle,
+#sidebar .panel__heading,
+#sidebar .panel__heading h3,
+.media-block .sr_it-datetime,
+.media-block .meta-simple,
+.media-block .category,
+.form input[type="submit"],
+.concerts-list .title-row .time,
+.concerts-list .expanded .title-row .button,
+.post_grid .tab-text time.sr_it-datetime,
+h1,
+h3.widgettitle,
+.excerpt p,
+.tweet_text,
+.content-box,
+.available-now,
+.release-date,
+.store-list a.button,
+.container .nm_mc_form input[type="text"],
+.container .nm_mc_form label,
+.container .nm_mc_error,
+#sidebar .nm_mc_error,
+.event-row .button,
+.media-block h2,
+.tracks-list > li:before,
+.tab-date,
+.videogrid .text-box h2,
+.control-description,
+.wpb_content_element,
+.photo-wrap:hover .tab-circle,
+.lighter-overlay h1,
+.lighter-overlay h2,
+.lighter-overlay h3,
+.lighter-overlay h4,
+.lighter-overlay h5,
+.lighter-overlay h6,
+.news-grid-wrap a:hover time,
+.news-grid-wrap a:hover .sr_it-meta-author-link,
+.news-grid-tab .sr_it-datetime,
+.news-grid-tab .sr_it-meta-author-link,
+.news-grid-tab .post-categories,
+.news-grid-tab .post-tags,
+.news-grid-wrap a:hover .post-categories,
+.news-grid-wrap a:hover .post-tags,
+#sidebar .textwidget,
+ul,
+li,
+dl,
+dt,
+dd,
+ol,
+pre,
+tr,
+td,
+th,
+.wooprice del,
+.woocommerce .woocommerce-message,
+.woocommerce .woocommerce-error,
+.woocommerce .woocommerce-info,
+.woocommerce-page .woocommerce-message,
+.woocommerce-page .woocommerce-error,
+.woocommerce-page .woocommerce-info,
+.description_tab,
+.reviews_tab,
+h3,
+.news-grid-wrap a.sticky,
+.news-grid-wrap.isotope-item a.sticky,
+.portfolio-sidetitle,
+.portfolio-sidelist,
+.portfolio .portfolio-prev .prev-text,
+.portfolio .portfolio-next .next-text,
+.portfolio .portfolio-prev i.fa-long-arrow-left,
+.portfolio .portfolio-next i.fa-long-arrow-right,
+.portfolio .portfolio-mid-wrap i.fa-th,
+.panel-action:hover,
+.sr_it-videolist-list i, .sr_it-videolist-item-title, .sr_it-videolist-item-artist, .sr_it-videolist-item-date { 
+	color: #ffffff;
+}
+
+.side-menu,
+.nav-menu .sub-menu,
+.nav-menu .children { 
+	background-attachment: initial;
+	background-color: #353535;
+}
+ul.header-top-menu { 
+	background-color: #ffffff;
+}
+.fill-menuicon { 
+	fill: #000000;
+}
+.menu-toggle.toggled span { 
+	background-color: #ffffff;
+}
+.responsive-header a.sandwich-icon { 
+	color: #ffffff;
+}
+.responsive-header a.sandwich-icon:hover { 
+	color: #ffffff;
+}
+body, .entry p, .single-product th, .single-product td, .single-product tr, .comment-text { 
+	font-family: Poppins;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 35px;
+	color: #ffffff;
+}
+h1 { 
+	font-family: Yeseva One;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 55px;
+	color: rgb(202, 136, 55);
+}
+h2, .sr_it-single-post h2, .text-box h2, .video-box h2, .title-box h2, .type-album .text-box h2 { 
+	font-family: Yeseva One;
+	font-weight: 400;
+	font-size: 38px;
+	line-height: 55px;
+	color: rgb(202, 136, 55);
+}
+h3, h3.widgettitle, .sr_it-playlist-title { 
+	font-family: Yeseva One;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 40px;
+	color: rgb(30, 240, 191);
+}
+h4 { 
+	font-family: Poppins;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 25px;
+	color: #ffffff;
+	letter-spacing: -1px;
+	border-color: #ffffff;
+}
+h5 { 
+	letter-spacing: 1px;
+}
+h6 { 
+	letter-spacing: 1px;
+}
+a.panel-action.panel-action__label { 
+	font-family: Halant;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+a.button-widget { 
+	font-family: Poppins;
+	font-weight: 600;
+	letter-spacing: 0px;
+}
+span.heading-t, span.heading-b { 
+	background-color: rgb(202, 136, 55);
+}
+span.heading-t3, span.heading-b3 { 
+	background-color: rgb(30, 240, 191);
+}
+.lighter-overlay span.heading-t, .lighter-overlay span.heading-b { 
+	background-color: #ffffff;
+}
+.lighter-overlay span.heading-t3, .lighter-overlay span.heading-b3 { 
+	background-color: #ffffff;
+}
+.darker-overlay span.heading-t, .darker-overlay span.heading-b { 
+	background-color: rgb(255, 255, 255);
+}
+.darker-overlay span.heading-t3, .darker-overlay span.heading-b3 { 
+	background-color: rgb(255, 255, 255);
+}
+.single-album .sr_it-single-post.featured, .single-album .content-box, .single-album #sidebar, .sr_it-singlealbum-content-wrapper { 
+	background-color: rgb(255, 255, 255);
+}
+.classic-menu { 
+	width: calc( 100% - 40px - 40px );
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 30px;
+	margin-bottom: 8px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.classic-menu > ul > li { 
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.classic-menu > ul > li a { 
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.classic-menu > ul > li.logo { 
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.responsive-header { 
+	background-color: rgb(38, 36, 35);
+}
+.listing-section .holder:hover h2 { 
+	color: #ffffff;
+}
+.news-grid-wrap a:hover .tab-title { 
+	color: #ffffff;
+}
+.classic-menu > ul { 
+	background-color: rgba(255, 255, 255, 0);
+}
+.classic-menu.mini { 
+	background-color: rgb(38, 36, 35);
+}
+.classic-menu > ul > li a, .classic-menu > ul > li.languages-selector > ul > li a { 
+	font-family: Poppins;
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 21px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.classic-menu > ul > li > ul > li a { 
+	font-family: Poppins;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 21px;
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: rgb(38, 36, 35);
+}
+.classic-menu > ul > li a:hover, .classic-menu > ul > li.languages-selector > ul > li a:hover { 
+	background-color: rgba(62, 226, 189, 0);
+	color: #bebebe;
+}
+.classic-menu > ul > li.current-menu-item > a[href*="#"] { 
+	font-family: Poppins;
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 21px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.classic-menu > ul > li.current-menu-item > a[href*="#"]:hover { 
+	background-color: rgba(62, 226, 189, 0);
+	color: #bebebe;
+}
+.classic-menu > ul > li.current-menu-item > a { 
+	background-color: rgba(255, 255, 255, 0);
+	color: #ffffff;
+}
+.classic-menu > ul > li.current-menu-ancestor > a { 
+	background-color: rgba(255, 255, 255, 0);
+	color: #ffffff;
+}
+.classic-menu > ul > li > ul > li a:hover { 
+	background-color: rgb(190, 190, 190);
+	color: #ffffff;
+}
+.classic-menu > ul > li > ul > li.current-menu-item > a { 
+	background-color: rgb(190, 190, 190);
+	color: #ffffff;
+}
+.classic-menu > ul > li > a, .classic-menu > ul > li.languages-selector a { 
+	letter-spacing: 4px;
+}
+.classic-menu ul.sub-menu li a { 
+	letter-spacing: 4px;
+}
+.menu-item a:hover { 
+	text-decoration: line-through;
+}
+.color1_txt, .color1_txt p { 
+	color: rgb(30, 240, 191);
+}
+.color1_bg { 
+	background-color: rgb(30, 240, 191);
+}
+.color3_txt, .color3_txt p { 
+	color: #ffffff;
+}
+.color3_bg { 
+	background-color: #ffffff;
+}
+.color4_txt, .color4_txt p { 
+	color: rgb(38, 36, 35);
+}
+.color4_bg { 
+	background-color: rgb(38, 36, 35);
+}
+.color5_txt { 
+	color: rgb(255, 255, 255);
+}
+.color5_bg { 
+	background-color: rgb(255, 255, 255);
+}
+.color6_txt { 
+	color: #ffffff;
+}
+.color6_bg { 
+	background-color: #ffffff;
+}
+.menu-toggle span { 
+	background-color: #000000;
+}
+.classic-menu.responsive>ul>li.current-menu-item.menu-item>a{
+color: #000;
+}
+
+.widget-title{
+    font-family: 'Poppins';
+    letter-spacing: 2px!important;
+}
+
+.sr-letter-spacing-6{
+letter-spacing: 6px;
+}
+.sr-letter-spacing-2{
+letter-spacing: 2px;
+}
+
+.media-block a{
+background-color: transparent;
+}
+
+.media-block a, .store-list a.button, .event-row, .type-album .text-box, .tracks-list>li, .panel-action, .iron_widget_twitter .panel__body, .iron_widget_twitter .panel-action, .iron_widget_radio .panel__body, .photo-wrap .photo-album-tab, .news-grid-wrap a, .container .iron_widget_newsletter, .container .newsletter-wrap, .videogrid, .iron_widget_videos .video-list article a, .articles-classic .media-block .holder, .pages a{
+background-color: rgba( 255, 255, 255, 0);
+}
+
+
+/* light theme*/
+.single-artist .playlist .sr_it-playlist-title, .single-artist .sr_it-playlist-artists, .single-artist .sr_it-playlist-release-date, .single-artist .iron-audioplayer .playlist .audio-track, .single-artist .iron-audioplayer .playlist .track-number {
+color: #fff;
+}
+
+
+/*search box*/
+.search-form input[type="search"]{
+border-color: #fff;
+background: none;
+color: #fff;
+min-width:212px;
+width: calc(100% - 135px);
+}
+.search-form input[type="search"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+color: #fff;
+}
+.search-form input[type="search"]::-moz-placeholder { /* Firefox 19+ */
+color: #fff;
+}
+.search-form input[type="search"]:-ms-input-placeholder { /* IE 10+ */
+color: #fff;
+}
+.search-form input[type="search"]:-moz-placeholder { /* Firefox 18- */
+color: #fff;
+}
+.widget_search input[type="submit"]{
+margin: 0px 10px 0px 10px!important;
+font-size: 14px!important;
+background-color: rgba(255,255,255,0)!important;
+border-width: 2px!important;
+border: solid!important;
+}
+
+
+/*Event*/
+.ul.concerts-list{
+border-top: 0;
+}
+.event-link .event-line-node:nth-of-type(2), .event-link .event-line-node:nth-of-type(3){
+font-weight: bold;
+}
+#artists_filter option {
+color: rgb(38, 36, 35);
+}
+
+
+/*button*/
+button{
+font-family: inherit;
+}
+.indie-button .vc_btn3.vc_btn3-size-lg{
+font-size: 18px;
+line-height: 20px;
+letter-spacing: 3px;
+font-weight: 400;
+}
+.indie-button .vc_btn3-size-lg.vc_btn3-style-outline-custom{
+padding: 17px 65px;
+border-radius: 30px;
+}
+figure{
+padding-top: 0;
+}
+
+
+/*homepage post grid*/
+.color1_txt>div, .vc_grid p{
+color: inherit !important;
+}
+.vc_grid .vc_custom_heading a{
+text-decoration: underline;
+}
+
+
+/*form*/
+.light-form, .light-form p{
+color: #fff;
+}
+.light-form textarea{
+background: none !important;
+}
+.light-form input, .light-form textarea{
+background: none;
+border: 1px solid #fff;
+color: #fff;
+}
+input[type="submit"]{
+background: none;
+border-width: 2px;
+border: solid;
+padding: 17px 65px;
+height: initial;
+border-radius: 30px;
+letter-spacing: 3px;
+margin: 0px;
+font-size: 18px;
+line-height: 20px;
+font-weight: 400;
+transition: all .2s ease-in-out;
+}
+.light-form input[type="submit"]{
+margin-top: 30px;
+}
+
+
+ul.header-top-menu li a{color:#000000;}.menu-toggle-off polygon{
+	fill:#ffffff;
+}
