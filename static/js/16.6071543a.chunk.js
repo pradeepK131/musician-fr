@@ -1,2 +1,0 @@
-(this.webpackJsonpmusician=this.webpackJsonpmusician||[]).push([[16],{1420:function(n,s,t){"use strict";t.r(s);t(1);var i=t(0);s.default=function(){return Object(i.jsx)(i.Fragment,{})}}}]);
-//# sourceMappingURL=16.6071543a.chunk.js.map
