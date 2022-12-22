@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/musician/static/css/main.9f521499.chunk.css",
-    "main.js": "/musician/static/js/main.8728d7cd.chunk.js",
-    "main.js.map": "/musician/static/js/main.8728d7cd.chunk.js.map",
-    "runtime-main.js": "/musician/static/js/runtime-main.4419387a.js",
-    "runtime-main.js.map": "/musician/static/js/runtime-main.4419387a.js.map",
+    "main.js": "/musician/static/js/main.20ae1a1d.chunk.js",
+    "main.js.map": "/musician/static/js/main.20ae1a1d.chunk.js.map",
+    "runtime-main.js": "/musician/static/js/runtime-main.510888bd.js",
+    "runtime-main.js.map": "/musician/static/js/runtime-main.510888bd.js.map",
     "static/css/2.5183b985.chunk.css": "/musician/static/css/2.5183b985.chunk.css",
     "static/js/2.de90e327.chunk.js": "/musician/static/js/2.de90e327.chunk.js",
     "static/js/2.de90e327.chunk.js.map": "/musician/static/js/2.de90e327.chunk.js.map",
     "static/js/3.e57cf787.chunk.js": "/musician/static/js/3.e57cf787.chunk.js",
     "static/js/3.e57cf787.chunk.js.map": "/musician/static/js/3.e57cf787.chunk.js.map",
-    "static/js/4.9f4d126a.chunk.js": "/musician/static/js/4.9f4d126a.chunk.js",
-    "static/js/4.9f4d126a.chunk.js.map": "/musician/static/js/4.9f4d126a.chunk.js.map",
+    "static/js/4.e43d44e7.chunk.js": "/musician/static/js/4.e43d44e7.chunk.js",
+    "static/js/4.e43d44e7.chunk.js.map": "/musician/static/js/4.e43d44e7.chunk.js.map",
     "static/js/5.5c82f062.chunk.js": "/musician/static/js/5.5c82f062.chunk.js",
     "static/js/5.5c82f062.chunk.js.map": "/musician/static/js/5.5c82f062.chunk.js.map",
     "static/js/6.dead13ad.chunk.js": "/musician/static/js/6.dead13ad.chunk.js",
@@ -22,8 +22,8 @@
     "static/js/8.15f1c5a6.chunk.js.map": "/musician/static/js/8.15f1c5a6.chunk.js.map",
     "static/js/9.8816ae53.chunk.js": "/musician/static/js/9.8816ae53.chunk.js",
     "static/js/9.8816ae53.chunk.js.map": "/musician/static/js/9.8816ae53.chunk.js.map",
-    "static/js/10.22a3da9d.chunk.js": "/musician/static/js/10.22a3da9d.chunk.js",
-    "static/js/10.22a3da9d.chunk.js.map": "/musician/static/js/10.22a3da9d.chunk.js.map",
+    "static/js/10.9713c294.chunk.js": "/musician/static/js/10.9713c294.chunk.js",
+    "static/js/10.9713c294.chunk.js.map": "/musician/static/js/10.9713c294.chunk.js.map",
     "static/js/11.e4cf3b6f.chunk.js": "/musician/static/js/11.e4cf3b6f.chunk.js",
     "static/js/11.e4cf3b6f.chunk.js.map": "/musician/static/js/11.e4cf3b6f.chunk.js.map",
     "static/js/12.ee202b7b.chunk.js": "/musician/static/js/12.ee202b7b.chunk.js",
@@ -58,10 +58,10 @@
     "static/media/style.react.scss": "/musician/static/media/socicon.fa1cafd6.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.4419387a.js",
+    "static/js/runtime-main.510888bd.js",
     "static/css/2.5183b985.chunk.css",
     "static/js/2.de90e327.chunk.js",
     "static/css/main.9f521499.chunk.css",
-    "static/js/main.8728d7cd.chunk.js"
+    "static/js/main.20ae1a1d.chunk.js"
   ]
 }
