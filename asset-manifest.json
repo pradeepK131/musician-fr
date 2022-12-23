@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/musician/static/css/main.9f521499.chunk.css",
-    "main.js": "/musician/static/js/main.20ae1a1d.chunk.js",
-    "main.js.map": "/musician/static/js/main.20ae1a1d.chunk.js.map",
+    "main.js": "/musician/static/js/main.ef804dd9.chunk.js",
+    "main.js.map": "/musician/static/js/main.ef804dd9.chunk.js.map",
     "runtime-main.js": "/musician/static/js/runtime-main.b2e08bdd.js",
     "runtime-main.js.map": "/musician/static/js/runtime-main.b2e08bdd.js.map",
     "static/css/2.5183b985.chunk.css": "/musician/static/css/2.5183b985.chunk.css",
@@ -62,6 +62,6 @@
     "static/css/2.5183b985.chunk.css",
     "static/js/2.de90e327.chunk.js",
     "static/css/main.9f521499.chunk.css",
-    "static/js/main.20ae1a1d.chunk.js"
+    "static/js/main.ef804dd9.chunk.js"
   ]
 }
