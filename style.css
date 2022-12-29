@@ -1025,6 +1025,15 @@ select.sort-select option:hover {
     outline: none;
 }
 
+@media only screen and (min-width: 768px) {
+    .vc_row {
+      -webkit-perspective: 1000px;
+      perspective: 1000px;
+      -webkit-perspective-origin: center;
+      perspective-origin: center; 
+    } 
+}
+
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 991px){
     .modal-content {
