@@ -1025,6 +1025,11 @@ select.sort-select option:hover {
     outline: none;
 }
 
+.edition-card-token-data {
+    display: flex;
+    justify-content: space-between;
+}
+
 @media only screen and (min-width: 768px) {
     .vc_row {
       -webkit-perspective: 1000px;
@@ -1918,6 +1923,10 @@ select.sort-select option:hover {
 
     .page-container-small {
         width: 105.8%;
+    }
+
+    .edition-card-token-data {
+        display: none;
     }
 }
 
