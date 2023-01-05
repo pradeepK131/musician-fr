@@ -546,6 +546,20 @@ input[type='file']::-webkit-file-upload-button {
     margin-right: 10px;
 }
 
+.banner-phrase {
+    position: absolute;
+    top: 20%;
+    left: 6%;
+    font-size: 60px;
+    color: #ffff;
+    width: 55%;
+    line-height: 100px;
+}
+
+.menu-item .menu-link {
+    padding: 0.15rem 1rem !important;
+}
+
 .menu-link:hover {
     background-color: #ffd600 !important;
     color: black !important;
@@ -1126,6 +1140,12 @@ select.sort-select option:hover {
     .sum-column {
         width : 480px;
     }
+
+    .banner-phrase{
+        font-size: 40px;
+        line-height: 70px;
+        width: 40%
+    }
 }
 
 @media only screen and (max-width: 1264px) {
@@ -1452,6 +1472,11 @@ select.sort-select option:hover {
     .prosecution-history {
         width: 860px;
     }
+    .banner-phrase{
+        font-size: 30px;
+        line-height: 50px;
+        width: 30%
+    }
 }
 
 @media only screen and (max-width: 936px) {
@@ -1559,6 +1584,12 @@ select.sort-select option:hover {
     }
     .prosecution-history {
         width: 760px;
+    }
+
+    .banner-phrase{
+        font-size: 20px;
+        line-height: 40px;
+        width: 20%
     }
 }
 
